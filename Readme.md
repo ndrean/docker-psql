@@ -18,7 +18,7 @@ ndrean@ndrean-XPS13-9333:-$ docker build . -t pg-img
 ndrean@ndrean-XPS13-9333:-$ docker run --rm -d --name pg-cont -p 5000:5423 pg-img
 ```
 With **dbeaver**, go to "database/new connection" and:
-![dbeaver](/home/ndrean/Images/dbeaver.png)
+![dbeaver](./dbeaver.png)
 
 - to insert data into the table
 
